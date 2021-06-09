@@ -1,0 +1,119 @@
+body {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgb(250, 248, 248);
+}
+.form {
+    left: 35%;
+    position: relative;
+    width: 350px;
+}
+.main {
+    top: 240px;
+    position: absolute;
+}
+.button {
+    position: relative;
+    left: 120%;
+    padding-top: 5px;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    user-select: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.login{
+    background-color: lawngreen;
+}   
+.register{
+    background-color: rgb(172, 147, 35);
+}
+.button:hover{
+    opacity: 0.6;
+}
+.loginform input{
+    border-radius: 10xp;
+    border: none;
+    text-align: center;
+    margin-top: 5px;
+}
+.loginf{
+    top: 90px;
+    left: 120px;
+}
+.form input{
+    border-radius: 20xp;
+    border: none;
+    text-align: center;
+    margin-top: 5px;
+}
+.visible{
+    display: block;
+}
+
+.two{
+    position: relative;
+    left: 48%;
+}
+
+div#left{
+    position: absolute;
+    top: 0px;
+    right:27%;
+    color: dimgray;
+}
+
+div#reg{
+    font-size: 18px;
+    color: dimgray;
+}
+div#sign {
+    position: absolute;
+    top:0px;
+    right: 15%;
+    color: deepskyblue;
+}
+.tri {
+    color: dodgerblue;
+    position: absolute;
+    top: 147%;
+    right: 17%;
+}
+.dva{
+    position: absolute;
+    top: 147%;
+    right: 10%;
+}
+
+.odin{
+    color: dodgerblue;
+}
+div#galka{
+    font-size: 12px;
+}
+.cloba {
+    position: absolute;
+    top: 175%;
+    right: 43%;
+}
+.Facebookbutton {
+    position: relative;
+    left: 18%;
+    padding-top: 10px;
+    text-align: center;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    user-select: none;
+    margin-top: 35px;
+    cursor: pointer;
+    background-color: rgb(78, 76, 228);
+    color: gainsboro;
+}
+.Facebookbutton:hover{
+    opacity: 0.6;
+}
